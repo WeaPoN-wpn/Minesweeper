@@ -1,0 +1,10 @@
+FLAGS = -pedantic-errors -std=c++11
+
+board.o: board.cpp board.h
+	g++ $(FLAGS) -c $<
+fuction.o: function.cpp board.h
+	g++ $(FLAGS) -c $<
+main.o: main.cpp board.h
+	g++ $(FLAGS) -c $<
+minesweep: board.o function.o main.o
+	g++ $(FLAGS) $^ -o $@
