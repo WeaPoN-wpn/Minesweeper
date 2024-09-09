@@ -1,4 +1,4 @@
-# minesweeper
+# Minesweeper
 A simple minesweeper game in C++.
 
  ## General rules
