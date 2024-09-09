@@ -1,6 +1,10 @@
 # Minesweeper
 A simple minesweeper game in C++.
 
+## Contributors
+*Wang, Peinan  
+ Yang, Yan Fei*
+
  ## General rules
  * Enter the coordinate of a square, the square will be turned over, and the number in the square indicates how many mines there are in the 8 squares around it.   
  * The goal of the game is to find all the mines and turn over all the squares without mines. If there is a mine under the opened square, the game fails.  
